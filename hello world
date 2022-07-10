@@ -1,0 +1,7 @@
+public class Sample//public 클래스(main함수가 들어있는 클래스도 포함!)와 파일명을 일치 시켜줘야 한다.
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello world.");
+    }
+}
