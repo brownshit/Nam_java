@@ -1,0 +1,8 @@
+public class printfEx {
+    public static void main(String[] args) {
+        long hex = 0xFFFF_FFFF_FFFF_FFFFL;
+        //0xFFFFFFFFFFFFFFFFL과 같다.
+        System.out.printf("hex : %#x\n",hex);//#은 접두사 역할로서,수 맨앞의 16진수의 0x나 8진수의 0을 출력한다.
+        System.out.printf("hex : %x\n",hex);
+    }
+}
