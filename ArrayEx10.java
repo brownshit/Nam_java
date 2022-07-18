@@ -9,6 +9,7 @@ public class ArrayEx10 {
 
         for(int i = 0; i<numArr.length-1; i++){
             boolean changed = false;
+            //boolean은 이렇게 자리바꿈이 발생한 등의 유무를 판별할때 사용된다!
 
             for(int j=0; j<numArr.length-1-i;j++){
                 if(numArr[j]>numArr[j+1]) {
